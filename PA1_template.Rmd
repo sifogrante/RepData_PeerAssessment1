@@ -10,7 +10,7 @@ output:
 
 First we load some handy libraries
 
-```{r echo=FALSE}
+```{r echo=TRUE}
 library("dplyr")      #For data fiddling
 library("data.table") #Nincer than data.frame IMHO
 library("ggplot2")    #Graphics

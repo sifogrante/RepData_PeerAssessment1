@@ -6,6 +6,10 @@
 First we load some handy libraries
 
 
+```r
+library("dplyr")      #For data fiddling
+```
+
 ```
 ## 
 ## Attaching package: 'dplyr'
@@ -17,13 +21,23 @@ First we load some handy libraries
 ## The following objects are masked from 'package:base':
 ## 
 ##     intersect, setdiff, setequal, union
-## 
+```
+
+```r
+library("data.table") #Nincer than data.frame IMHO
+```
+
+```
 ## 
 ## Attaching package: 'data.table'
 ## 
 ## The following objects are masked from 'package:dplyr':
 ## 
 ##     between, last
+```
+
+```r
+library("ggplot2")    #Graphics
 ```
 
 Then we unzip the data and load it into a data.table called activities.

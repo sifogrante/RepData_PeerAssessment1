@@ -175,7 +175,7 @@ We see that the mean didn't change, which is no surprise since we used the mean 
 
 
 ```r
-# Sorry but my  is in Spanish so:
+# Sorry but my calendar is in Spanish so:
 # sábado==saturday  & domingo==sunday
 weekend<-c("sábado","domingo")
 

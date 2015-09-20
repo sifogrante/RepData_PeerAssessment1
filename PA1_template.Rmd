@@ -125,7 +125,7 @@ We see that the mean didn't change, which is no surprise since we used the mean 
 1. Create a new factor variable in the dataset with two levels -- "weekday" and "weekend" indicating whether a given date is a weekday or weekend day.
 
 ```{r echo=TRUE}
-# Sorry but my  is in Spanish so:
+# Sorry but my calendar is in Spanish so:
 # sábado==saturday  & domingo==sunday
 weekend<-c("sábado","domingo")
 

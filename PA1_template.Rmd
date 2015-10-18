@@ -10,7 +10,7 @@ output:
 
 First we load some handy libraries
 
-```{r echo=TRUE}
+```{r echo=TRUE, message=FALSE, results='hide'}
 library("dplyr")      #For data fiddling
 library("data.table") #Nincer than data.frame IMHO
 library("ggplot2")    #Graphics
@@ -86,6 +86,8 @@ A summary of the data will give us a count of the missing values.
 ```{r echo=TRUE}
 summary(activity)[7,1]
 ```
+
+
 
 2. Devise a strategy for filling in all of the missing values in the dataset. The strategy does not need to be sophisticated. For example, you could use the mean/median for that day, or the mean for that 5-minute interval, etc.
 

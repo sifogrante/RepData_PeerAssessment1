@@ -8,35 +8,7 @@ First we load some handy libraries
 
 ```r
 library("dplyr")      #For data fiddling
-```
-
-```
-## 
-## Attaching package: 'dplyr'
-## 
-## The following objects are masked from 'package:stats':
-## 
-##     filter, lag
-## 
-## The following objects are masked from 'package:base':
-## 
-##     intersect, setdiff, setequal, union
-```
-
-```r
 library("data.table") #Nincer than data.frame IMHO
-```
-
-```
-## 
-## Attaching package: 'data.table'
-## 
-## The following objects are masked from 'package:dplyr':
-## 
-##     between, last
-```
-
-```r
 library("ggplot2")    #Graphics
 ```
 
@@ -137,6 +109,8 @@ summary(activity)[7,1]
 ```
 ## [1] "NA's   :2304  "
 ```
+
+
 
 2. Devise a strategy for filling in all of the missing values in the dataset. The strategy does not need to be sophisticated. For example, you could use the mean/median for that day, or the mean for that 5-minute interval, etc.
 

@@ -67,25 +67,9 @@ img {
 <div id="loading-and-preprocessing-the-data" class="section level2">
 <h2>Loading and preprocessing the data</h2>
 <p>First we load some handy libraries</p>
-<pre class="r"><code>library(&quot;dplyr&quot;)      #For data fiddling</code></pre>
-<pre><code>## 
-## Attaching package: 'dplyr'
-## 
-## The following objects are masked from 'package:stats':
-## 
-##     filter, lag
-## 
-## The following objects are masked from 'package:base':
-## 
-##     intersect, setdiff, setequal, union</code></pre>
-<pre class="r"><code>library(&quot;data.table&quot;) #Nincer than data.frame IMHO</code></pre>
-<pre><code>## 
-## Attaching package: 'data.table'
-## 
-## The following objects are masked from 'package:dplyr':
-## 
-##     between, last</code></pre>
-<pre class="r"><code>library(&quot;ggplot2&quot;)    #Graphics</code></pre>
+<pre class="r"><code>library(&quot;dplyr&quot;)      #For data fiddling
+library(&quot;data.table&quot;) #Nincer than data.frame IMHO
+library(&quot;ggplot2&quot;)    #Graphics</code></pre>
 <p>Then we unzip the data and load it into a data.table called activities. We convert the dates from strings to data objects and the steps to floating point numbres.</p>
 <pre class="r"><code>setwd(&quot;~/Data-Science/RepResearch/RepData_PeerAssessment1&quot;)
 
